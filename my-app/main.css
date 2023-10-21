@@ -82,7 +82,7 @@ button span {
 }
 
 button[data-action="reset"] {
-    color: #FFF;
+    color: #000000;
     opacity: 0.5;
 }
 
@@ -91,9 +91,11 @@ button[data-action="reset"]:hover {
 }
 
 .save {
+    
     margin-top: 2rem;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
+    
 
     display: flex;
     align-items: center;
@@ -102,8 +104,9 @@ button[data-action="reset"]:hover {
 
 .save button {
     color: var(--dark);
+    margin: 0 0.5rem;
 }
 
 button:active {
-    transform: scale(1.1);
+    transform: scale;
 }
